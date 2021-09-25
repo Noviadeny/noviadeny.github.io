@@ -1,0 +1,129 @@
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+header{
+  text-align: center;
+  background-color: black;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 97%;
+  background-color: transparent;
+  height: 1000px; /* only for demonstration, should be removed */
+}
+
+body {
+text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('pp.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+<header> <br>
+  <h1 style="color: white" > STAYZEN FANBASE </h1>
+<ul>
+  <li><a href="home.html">Home</a></li>
+   <li><a class="active" href="#Daftar">Daftar</a></li>
+   <li><a href="tabel.html">Presensi</a></li>
+   <li><a href="login.html">Login</a></li>
+</ul>
+</header>
+<section>
+  <style type="text/css">
+    table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+  </style>
+</head>
+<body>
+  <table border="1" align="center">
+    <h2 style="color: white" >Rekap Absen</h2>
+    <tr bgcolor="#1db7de">
+      <th style="color: white" rowspan="2">No</th>
+      <th style="color: white" rowspan="2" width="200"> Nama</th>
+      <th style="color: white" rowspan="2"> JK</th>
+      <th style="color: white" colspan="4">September</th>
+    </tr> 
+    <tr>
+      <th style="color: white">>1</th>
+      <th style="color: white">>2</th>
+      <th style="color: white">>3</th>
+      <th style="color: white">>4</th>
+    </tr>
+<tr>
+  <td style="color: white">1</td>
+  <td style="color: white">Alin</td>
+  <td style="color: white">P</td>
+  <td style="color: white">H</td>
+  <td style="color: white">H</td>
+  <td style="color: white">H</td>
+  <td style="color: white">H</td>
+</tr>
+
+<tr>
+  <td style="color: white">2</td>
+  <td style="color: white">Amin</td>
+  <td style="color: white">L</td>
+  <td style="color: white">H</td>
+  <td style="color: white">H</td>
+  <td style="color: white">S</td>
+  <td style="color: white">H</td>
+</tr>
+
+<tr>
+  <td style="color: white">3</td>
+  <td style="color: white">Alika</td>
+  <td style="color: white">P</td>
+  <td style="color: white">H</td>
+  <td style="color: white">H</td>
+  <td style="color: white">H</td>
+  <td style="color: white">H</td>
+</tr>
+
+  </table>
+</section>
+<br><br>
+</section>
+</body>
+</html>
